@@ -25,6 +25,7 @@ $(document).ready(function() {
       $('.definition1').text(`The definition of ${word} is ${response[0].meanings[0].definitions[0].definition}`);
       $('.definition2').text(`In Other Words ${word} is ${response[0].meanings[1].definitions[1].definition}`);
       $('.synonyms').text(`The Synonyms of ${word} is ${response[0].meanings[1].synonyms}`);
+      $('.antonyms').text(`The Antonyms of ${word} is ${response[0].meanings[0].antonyms}`);
     }
   });
 });
