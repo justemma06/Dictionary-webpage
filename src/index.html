@@ -1,18 +1,26 @@
 <html lang="en-US">
+
 <head>
-  <title>Dictionary</title>
+    <title>Dictionary</title>
 </head>
+
 <body>
-  <div class="container">
-    <h1>DICTIONARY!</h1>
-    <label for="location">ENTER A WORD:</label>
-    <input id="location" type="text">
-    <button class="btn-success" id="weatherLocation">Get meanings of the word</button>
-    <div class="definition1"></div>
-    <div class="definition2"></div>
-    <div class="synonyms"></div>
-    <div class="antonyms"></div>
-    <audio src=""></audio>
-  </div>
+    <div class="container">
+        <h1>DICTIONARY!</h1>
+        <label for="location">ENTER A WORD:</label>
+        <input id="location" type="text">
+        <button class="btn-success" id="weatherLocation">Get meanings of the word</button>
+        <div class="definition1"></div>
+        <div class="definition2"></div>
+        <div class="synonyms"></div>
+        <div class="antonyms"></div>
+        <div class="example1"></div>
+        <div class="example2"></div>
+        <div class="partOfSpeech"></div>
+        <div class="audio"><a href="https://api.dictionaryapi.dev/media/pronunciations/en/alive-us.mp3"></a></div>
+    </div>
 </body>
+
 </html>
+
+<!-- $('.audio').text(".audio")(`The Audio of ${word} is ${response[0].phonetics[0].audio}`); -->
