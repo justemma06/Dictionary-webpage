@@ -23,7 +23,8 @@ $(document).ready(function() {
   
     function getElements(response) {
       $('.definition1').text(`The definition of ${word} is ${response[0].meanings[0].definitions[0].definition}`);
-      $('.definition2').text(`The temperature in Kelvins is ${response.main.temp} degrees.`);
+      $('.definition2').text(`In Other Words ${word} is ${response[0].meanings[1].definitions[1].definition}`);
+      $('.definition2').text(`The Synonyms of ${word} is ${response[0].meanings[1].definitions[1].definition}`);
     }
   });
 });
