@@ -5,8 +5,8 @@ import './css/styles.css';
 
 $(document).ready(function() {
   $('#weatherLocation').click(function() {
-    const word = $('#word').val();
-    $('#word').val("");
+    const word = $('#location').val();
+    $('#location').val("");
   
     let request = new XMLHttpRequest();
     const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
@@ -23,7 +23,7 @@ $(document).ready(function() {
   
     function getElements(response) {
       $('.definition1').text(`The definition of ${word} is ${response[0].meanings[0].definitions[0].definition}`);
-    //   $('.definition2').text(`The temperature in Kelvins is ${response.main.temp} degrees.`);
+      $('.definition2').text(`The temperature in Kelvins is ${response.main.temp} degrees.`);
     }
   });
 });
