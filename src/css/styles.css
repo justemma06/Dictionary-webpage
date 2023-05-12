@@ -5,7 +5,7 @@ body{
 #web-con{
     width: 30rem;
     height: 10rem;
-    background-color: whitesmoke;
+    background-color: rgb(227, 227, 227);
     border-radius: 20px;
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
@@ -19,6 +19,7 @@ body{
 #down-bdg{
     background-color: rgb(237, 163, 24);
     margin-top: 7.5rem;
+    height: 350px;
 }
 .card{
     background-color: rgb(214, 152, 7);
@@ -48,15 +49,54 @@ body{
 }
 
 #contents{
-    margin-top: 130px;
+    display: inline-flex;
+    margin-top: 150px;
 }
 #rope{
     width: 10px;
     height: 100px;
-    background-color: whitesmoke;
+    background-color: rgb(227, 227, 227);
     margin-left: 530px;
 }
 #location{
     outline: none;
     padding: 5px 10px;
+}
+.div1{
+    width: 255px;
+    height: 100%;
+    background-color: white;
+    margin-left: 50px;
+    text-align: center;  
+    border-top-left-radius: 30px;
+    
+}
+
+.div2{
+    width: 255px;
+    height: 100%;
+    background-color: white; 
+    margin-left: 80px;
+    text-align: center;  
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+}
+
+.div3{
+    width: 255px;
+    height: 100%;
+    background-color: white; 
+    margin-left: 80px;
+    text-align: center;  
+    border-top-right-radius: 30px;
+}
+
+.div4{
+    width: 255px;
+    height: 100%;
+    background-color: white; 
+    margin-left: 80px;
+    text-align: center;  
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
